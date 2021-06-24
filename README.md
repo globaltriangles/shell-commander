@@ -7,7 +7,7 @@ This is a small php composer plugin to execute shell commands with support of re
 Use the package manager [composer](https://getcomposer.org/) to install shell-commander.
 
 ```bash
-composer require global-triangles/shell-commander
+composer require globaltriangles/shell-commander
 ```
 
 ## Usage

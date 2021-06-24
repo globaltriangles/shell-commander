@@ -1,5 +1,5 @@
 {
-    "name": "global-triangles/shell-commander",
+    "name": "globaltriangles/shell-commander",
     "description": "Extension that allows the execution of shell commands directly to the server supporting general output and errors",
     "require": {
         "php": ">=5.3.0"
