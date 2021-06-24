@@ -1,0 +1,20 @@
+{
+    "name": "global-triangles/shell-commander",
+    "description": "Extension that allows the execution of shell commands directly to the server supporting general output and errors",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Rodrigo Jimenez",
+            "email": "rodrigo@globaltriangles.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "ShellCommander": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
