@@ -14,7 +14,7 @@ class Commander
         fclose($pipes[1]);
         $stderr = stream_get_contents($pipes[2]);
         fclose($pipes[2]);
-        return proc_close($proc);
+        proc_close($proc);
 
         return ['output' => $stdout, 'error' => $stderr];
     }
